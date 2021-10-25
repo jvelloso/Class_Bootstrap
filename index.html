@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Aula de Bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="CSS\style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+         <div style="background-color: #614cae;" >                  
+            <div >
+                 <nav class="navbar navbar-inverse" style="background-color: #614cae;" style="color: white;">                    
+                    <div class="container-fluid" class="color: white">
+                        <img src="C:\Users\Jvelloso\Desktop\Estudos\Meus Projetos\Class_Bootstrap\Class_Bootstrap\CSS\caocoragem.png" alt="caocoragem">                    
+                      <div class="navbar-header" >
+                        <a class="navbar-brand" href="#">Audote um amigo!</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Fila de adoção</a></li>
+                        <li><a href="#">Quero ajudar</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+         </div>	
+        <div>
+            <label class="col-md-4 control-label">
+            </label>            
+           <img src="CSS/doquinhos.jpg" alt="cao" width="427" height="300" class="img-rounded">
+        </div>  
+        <label class="col-md-12 control-label">
+        </label>  
+        <label class="col-md-4 control-label">
+        </label>  
+        <div name="submit" style="cursor:pointer" onclick="Quero Adotar()" class="btn btn-success">Quero Adotar</div>
+		  <div name="submit" style="cursor:pointer" onclick="Quero Divulgar()" class="btn btn-danger">Quero Divulgar</div>
+          <br></br>
+          
+          <div id="cadastro">
+             <div> 
+            <label class="col-md-4 control-label">
+            </label>
+            <h1>Cadaste-se</h1>
+              </div>
+            <form class="form-horizontal">
+                <fieldset>                     
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="textnome">Nome</label>  
+                <div class="col-md-4">
+                <input id="textnome" name="textnome" type="text" placeholder="" class="form-control input-md">
+                    
+                </div>
+                </div>
+                
+                <!-- Select Basic -->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="selectUF">Estado</label>
+                <div class="col-md-4">
+                    <select id="selectUF" name="selectUF" class="form-control">
+                    <option value="1">Rio de Janeiro</option>
+                    </select>
+                </div>
+                </div>
+                
+                <!-- Select Basic -->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="selectCidade">Cidade</label>
+                <div class="col-md-4">
+                    <select id="selectCidade" name="selectCidade" class="form-control">
+                    <option value="1">Rio de Janeiro</option>
+                    <option value="2">Caxias</option>
+                    <option value="3">Nova Iguaçu</option>
+                    <option value="4">São Gonçalo</option>
+                    <option value="5">Niterói</option>
+                    </select>
+                </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="textemail">Email</label>  
+                <div class="col-md-4">
+                <input id="textemail" name="textemail" type="text" placeholder="" class="form-control input-md">
+                    
+                </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="textwpp">WhatsApp</label>  
+                <div class="col-md-4">
+                <input id="textwpp" name="textwpp" type="text" placeholder="" class="form-control input-md">
+                    
+                </div>
+                </div>
+                
+                <!-- Multiple Checkboxes (inline) -->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="checkboxes">Já possui animais?</label>
+                <div class="col-md-4">
+                    <label class="checkbox-inline" for="checkboxes-0">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                    Sim
+                    </label>
+                    <label class="checkbox-inline" for="checkboxes-1">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                    Não
+                    </label>
+                </div>
+                </div>
+                
+                <!-- Textarea -->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="textpqqueradotar">Motivação para adotar um novo animal de estimação</label>
+                <div class="col-md-4">                     
+                 <textarea class="form-control" id="textpqqueradotar" name="textpqqueradotar"></textarea>
+                </div>
+                </div> 
+                <div><label class="col-md-4 control-label">
+                </label></div>  
+                <div name="submit" style="cursor:pointer"  id="Salvar"class="btn btn-success">Salvar</div>
+		        <div name="submit" style="cursor:pointer"  id="Limpar"class="btn btn-danger">Limpar</div>       
+                </fieldset>
+                </form>
+          </div>
+          <script type="text/javascript" src="js/script.js"></script>           
+            
+    </body>
+</html>
